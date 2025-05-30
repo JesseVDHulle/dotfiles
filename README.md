@@ -1,6 +1,8 @@
 # Dotfiles
 
 A collection of my personal configuration files and scripts for my Linux environment.
+Follow this guide to install my personal config files.
+See the guide for [OS installation](OS_INSTALLATION) for how to set up my linux environment.
 
 ## Installation
 TODO:
@@ -20,6 +22,41 @@ TODO:
 ---
 
 ## Configuration
+
+Theme
+TODO: Not working with nautilus
+To make sure applications will use the desired dark theme, we install a gtk themer.
+```sh
+pacman -S nwg-look
+pacman -S qt5ct qt6ct kvantum
+yay -S kvantum-theme-catppuccin-git
+nwg-look
+```
+
+Hyperland Config
+
+Hyprlock Config
+
+Waybar Config
+
+Kitty Config
+
+Greetd + Tuigreet Config
+
+Firefox Config
+
+Nautilus Config
+
+Dunst Config
+
+Rofi Config
+
+ClipBoard Config
+
+LogOut/ShutdownManager
+
+ScreenshotManager
+
 TODO:
 - All configuration files are stored in the `configs/` directory.
 - Symlinks are created to your home directory (e.g., `~/.bashrc`, `~/.vimrc`).

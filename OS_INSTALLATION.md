@@ -173,9 +173,14 @@ TODO: And configure the timeshift in the UI
 ### Hyperland
 Too install hyprland consult the offical [hyprland docs](https://wiki.hyprland.org/Getting-Started/)
 
+Other packages to install for compatibility
+```sh
+sudo pacman -S xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst
+```
+
 Also make sure to install the following apps:
 ```sh
-sudo pacman -S kitty dolphin firefox
+sudo pacman -S kitty thunar firefox
 ```
 
 To make sure you installed fonts used by application, install the following:

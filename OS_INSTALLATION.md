@@ -108,7 +108,7 @@ sudo pacman -Syu
 Standard packages to install using Pacman
 ```sh
 sudo pacman -S base-devel wget curl man-db man-pages
- pkgfile git fastfetch htop (amd-ucode/intel-ucode) 
+ pkgfile git fastfetch htop amd-ucode zsh
 ```
 
 ### Package Manager
@@ -175,7 +175,7 @@ Too install hyprland consult the offical [hyprland docs](https://wiki.hyprland.o
 
 Other packages to install for compatibility
 ```sh
-sudo pacman -S xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst
+sudo pacman -S xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst jq gnome-keyring neovim
 ```
 
 Also make sure to install the following apps:

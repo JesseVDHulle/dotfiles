@@ -1,0 +1,1 @@
+This includes all my config for games. The biggest and only one at the moment is Minecraft.

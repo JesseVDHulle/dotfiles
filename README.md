@@ -39,6 +39,15 @@ Hyprlock Config
 
 Waybar Config
 
+ZSH Config
+```sh
+sudo pacman -S zsh-autosuggestions zsh-completions zsh-syntax-highlighting
+```
+
+```sh
+yay -S oh-my-posh
+``` 
+
 Kitty Config
 
 Greetd + Tuigreet Config
@@ -56,6 +65,23 @@ ClipBoard Config
 LogOut/ShutdownManager
 
 ScreenshotManager
+
+Show/Hide desktop shortcut
+
+Firewall Config
+```sh
+sudo pacman -Syu ufw
+sudo ufw enable
+sudo systemctl enable ufw 
+```
+
+Gemini Config
+
+OpenRGB Config
+
+BossKatana Config
+
+Rofi Scripts
 
 TODO:
 - All configuration files are stored in the `configs/` directory.
